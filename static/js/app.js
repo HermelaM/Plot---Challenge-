@@ -48,7 +48,7 @@ function Ploty(id) {
     Plotly.plot("bar", data, layout);
         // The bubble chart
         var trace1 = {
-            x: OTU_id,
+            x: ids,
             y: sampleValues,
             mode: "markers",
             marker: {
